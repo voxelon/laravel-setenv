@@ -12,10 +12,10 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [ "7.4", "8.0", "8.1" ]
+        php: [ "7.3", "8.0", "8.1" ]
         laravel: [ "7.0", "8.74" ]
         exclude:
-          - php: "7.4"
+          - php: "7.3"
             laravel: "8.74"
           - php: "8.0"
             laravel: "7.0"
